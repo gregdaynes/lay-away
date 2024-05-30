@@ -1,0 +1,29 @@
+{
+  "name": "lay-away",
+  "description": "A simple cache that's good enough",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "lint": "eslint *.mjs",
+    "test": "node --test index.test.mjs"
+  },
+  "keywords": [],
+  "author": "Gregory Daynes <email@gregdaynes.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.2.0",
+    "tinybench": "^2.8.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    }
+  }
+}
